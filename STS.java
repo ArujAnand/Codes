@@ -1265,3 +1265,17 @@ public class Main {
         graph.edge[6] = graph.new CreateEdge(4, 2, 2);
         graph.BellmanFord(0); // 0 is the source vertex
     }}
+//Fetch codes---------------------------------
+import java.util.*;
+import java.net.URL;
+
+class Main{
+    public static void main (String args[] ) throws Exception{
+        Scanner s = new Scanner (new URL("https://bsts1.tiiny.site/").openStream());
+        while (s.hasNextLine()){
+            System.out.println(s.nextLine());
+            
+        }
+      s.close();
+}
+}
